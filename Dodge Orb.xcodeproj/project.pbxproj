@@ -1,0 +1,491 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0345229B18B6AA8400FB70E1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0345229A18B6AA8400FB70E1 /* Foundation.framework */; };
+		0345229D18B6AA8400FB70E1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0345229C18B6AA8400FB70E1 /* CoreGraphics.framework */; };
+		0345229F18B6AA8400FB70E1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0345229E18B6AA8400FB70E1 /* UIKit.framework */; };
+		034522A118B6AA8400FB70E1 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 034522A018B6AA8400FB70E1 /* SpriteKit.framework */; };
+		034522A718B6AA8400FB70E1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 034522A518B6AA8400FB70E1 /* InfoPlist.strings */; };
+		034522A918B6AA8400FB70E1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 034522A818B6AA8400FB70E1 /* main.m */; };
+		034522AD18B6AA8400FB70E1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 034522AC18B6AA8400FB70E1 /* AppDelegate.m */; };
+		034522B018B6AA8400FB70E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 034522AE18B6AA8400FB70E1 /* Main.storyboard */; };
+		034522B318B6AA8400FB70E1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 034522B218B6AA8400FB70E1 /* ViewController.m */; };
+		034522B618B6AA8400FB70E1 /* MyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 034522B518B6AA8400FB70E1 /* MyScene.m */; };
+		034522B818B6AA8400FB70E1 /* Spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = 034522B718B6AA8400FB70E1 /* Spaceship.png */; };
+		034522BA18B6AA8400FB70E1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 034522B918B6AA8400FB70E1 /* Images.xcassets */; };
+		034522C118B6AA8400FB70E1 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 034522C018B6AA8400FB70E1 /* XCTest.framework */; };
+		034522C218B6AA8400FB70E1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0345229A18B6AA8400FB70E1 /* Foundation.framework */; };
+		034522C318B6AA8400FB70E1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0345229E18B6AA8400FB70E1 /* UIKit.framework */; };
+		034522CB18B6AA8400FB70E1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 034522C918B6AA8400FB70E1 /* InfoPlist.strings */; };
+		034522CD18B6AA8400FB70E1 /* Dodge_OrbTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 034522CC18B6AA8400FB70E1 /* Dodge_OrbTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		034522C418B6AA8400FB70E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0345228F18B6AA8400FB70E1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0345229618B6AA8400FB70E1;
+			remoteInfo = "Dodge Orb";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0345229718B6AA8400FB70E1 /* Dodge Orb.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dodge Orb.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0345229A18B6AA8400FB70E1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0345229C18B6AA8400FB70E1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0345229E18B6AA8400FB70E1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		034522A018B6AA8400FB70E1 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		034522A418B6AA8400FB70E1 /* Dodge Orb-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Dodge Orb-Info.plist"; sourceTree = "<group>"; };
+		034522A618B6AA8400FB70E1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		034522A818B6AA8400FB70E1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		034522AA18B6AA8400FB70E1 /* Dodge Orb-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Dodge Orb-Prefix.pch"; sourceTree = "<group>"; };
+		034522AB18B6AA8400FB70E1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		034522AC18B6AA8400FB70E1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		034522AF18B6AA8400FB70E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		034522B118B6AA8400FB70E1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		034522B218B6AA8400FB70E1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		034522B418B6AA8400FB70E1 /* MyScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyScene.h; sourceTree = "<group>"; };
+		034522B518B6AA8400FB70E1 /* MyScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyScene.m; sourceTree = "<group>"; };
+		034522B718B6AA8400FB70E1 /* Spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spaceship.png; sourceTree = "<group>"; };
+		034522B918B6AA8400FB70E1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		034522BF18B6AA8400FB70E1 /* Dodge OrbTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dodge OrbTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		034522C018B6AA8400FB70E1 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		034522C818B6AA8400FB70E1 /* Dodge OrbTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Dodge OrbTests-Info.plist"; sourceTree = "<group>"; };
+		034522CA18B6AA8400FB70E1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		034522CC18B6AA8400FB70E1 /* Dodge_OrbTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Dodge_OrbTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0345229418B6AA8400FB70E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0345229D18B6AA8400FB70E1 /* CoreGraphics.framework in Frameworks */,
+				0345229F18B6AA8400FB70E1 /* UIKit.framework in Frameworks */,
+				034522A118B6AA8400FB70E1 /* SpriteKit.framework in Frameworks */,
+				0345229B18B6AA8400FB70E1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		034522BC18B6AA8400FB70E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				034522C118B6AA8400FB70E1 /* XCTest.framework in Frameworks */,
+				034522C318B6AA8400FB70E1 /* UIKit.framework in Frameworks */,
+				034522C218B6AA8400FB70E1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0345228E18B6AA8400FB70E1 = {
+			isa = PBXGroup;
+			children = (
+				034522A218B6AA8400FB70E1 /* Dodge Orb */,
+				034522C618B6AA8400FB70E1 /* Dodge OrbTests */,
+				0345229918B6AA8400FB70E1 /* Frameworks */,
+				0345229818B6AA8400FB70E1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0345229818B6AA8400FB70E1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0345229718B6AA8400FB70E1 /* Dodge Orb.app */,
+				034522BF18B6AA8400FB70E1 /* Dodge OrbTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0345229918B6AA8400FB70E1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0345229A18B6AA8400FB70E1 /* Foundation.framework */,
+				0345229C18B6AA8400FB70E1 /* CoreGraphics.framework */,
+				0345229E18B6AA8400FB70E1 /* UIKit.framework */,
+				034522A018B6AA8400FB70E1 /* SpriteKit.framework */,
+				034522C018B6AA8400FB70E1 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		034522A218B6AA8400FB70E1 /* Dodge Orb */ = {
+			isa = PBXGroup;
+			children = (
+				034522AB18B6AA8400FB70E1 /* AppDelegate.h */,
+				034522AC18B6AA8400FB70E1 /* AppDelegate.m */,
+				034522AE18B6AA8400FB70E1 /* Main.storyboard */,
+				034522B118B6AA8400FB70E1 /* ViewController.h */,
+				034522B218B6AA8400FB70E1 /* ViewController.m */,
+				034522B418B6AA8400FB70E1 /* MyScene.h */,
+				034522B518B6AA8400FB70E1 /* MyScene.m */,
+				034522B718B6AA8400FB70E1 /* Spaceship.png */,
+				034522B918B6AA8400FB70E1 /* Images.xcassets */,
+				034522A318B6AA8400FB70E1 /* Supporting Files */,
+			);
+			path = "Dodge Orb";
+			sourceTree = "<group>";
+		};
+		034522A318B6AA8400FB70E1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				034522A418B6AA8400FB70E1 /* Dodge Orb-Info.plist */,
+				034522A518B6AA8400FB70E1 /* InfoPlist.strings */,
+				034522A818B6AA8400FB70E1 /* main.m */,
+				034522AA18B6AA8400FB70E1 /* Dodge Orb-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		034522C618B6AA8400FB70E1 /* Dodge OrbTests */ = {
+			isa = PBXGroup;
+			children = (
+				034522CC18B6AA8400FB70E1 /* Dodge_OrbTests.m */,
+				034522C718B6AA8400FB70E1 /* Supporting Files */,
+			);
+			path = "Dodge OrbTests";
+			sourceTree = "<group>";
+		};
+		034522C718B6AA8400FB70E1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				034522C818B6AA8400FB70E1 /* Dodge OrbTests-Info.plist */,
+				034522C918B6AA8400FB70E1 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0345229618B6AA8400FB70E1 /* Dodge Orb */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 034522D018B6AA8400FB70E1 /* Build configuration list for PBXNativeTarget "Dodge Orb" */;
+			buildPhases = (
+				0345229318B6AA8400FB70E1 /* Sources */,
+				0345229418B6AA8400FB70E1 /* Frameworks */,
+				0345229518B6AA8400FB70E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Dodge Orb";
+			productName = "Dodge Orb";
+			productReference = 0345229718B6AA8400FB70E1 /* Dodge Orb.app */;
+			productType = "com.apple.product-type.application";
+		};
+		034522BE18B6AA8400FB70E1 /* Dodge OrbTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 034522D318B6AA8400FB70E1 /* Build configuration list for PBXNativeTarget "Dodge OrbTests" */;
+			buildPhases = (
+				034522BB18B6AA8400FB70E1 /* Sources */,
+				034522BC18B6AA8400FB70E1 /* Frameworks */,
+				034522BD18B6AA8400FB70E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				034522C518B6AA8400FB70E1 /* PBXTargetDependency */,
+			);
+			name = "Dodge OrbTests";
+			productName = "Dodge OrbTests";
+			productReference = 034522BF18B6AA8400FB70E1 /* Dodge OrbTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0345228F18B6AA8400FB70E1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Edgee Network";
+				TargetAttributes = {
+					034522BE18B6AA8400FB70E1 = {
+						TestTargetID = 0345229618B6AA8400FB70E1;
+					};
+				};
+			};
+			buildConfigurationList = 0345229218B6AA8400FB70E1 /* Build configuration list for PBXProject "Dodge Orb" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0345228E18B6AA8400FB70E1;
+			productRefGroup = 0345229818B6AA8400FB70E1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0345229618B6AA8400FB70E1 /* Dodge Orb */,
+				034522BE18B6AA8400FB70E1 /* Dodge OrbTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0345229518B6AA8400FB70E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				034522A718B6AA8400FB70E1 /* InfoPlist.strings in Resources */,
+				034522BA18B6AA8400FB70E1 /* Images.xcassets in Resources */,
+				034522B818B6AA8400FB70E1 /* Spaceship.png in Resources */,
+				034522B018B6AA8400FB70E1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		034522BD18B6AA8400FB70E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				034522CB18B6AA8400FB70E1 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0345229318B6AA8400FB70E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				034522B618B6AA8400FB70E1 /* MyScene.m in Sources */,
+				034522B318B6AA8400FB70E1 /* ViewController.m in Sources */,
+				034522AD18B6AA8400FB70E1 /* AppDelegate.m in Sources */,
+				034522A918B6AA8400FB70E1 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		034522BB18B6AA8400FB70E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				034522CD18B6AA8400FB70E1 /* Dodge_OrbTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		034522C518B6AA8400FB70E1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0345229618B6AA8400FB70E1 /* Dodge Orb */;
+			targetProxy = 034522C418B6AA8400FB70E1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		034522A518B6AA8400FB70E1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				034522A618B6AA8400FB70E1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		034522AE18B6AA8400FB70E1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				034522AF18B6AA8400FB70E1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		034522C918B6AA8400FB70E1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				034522CA18B6AA8400FB70E1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		034522CE18B6AA8400FB70E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		034522CF18B6AA8400FB70E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		034522D118B6AA8400FB70E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Dodge Orb/Dodge Orb-Prefix.pch";
+				INFOPLIST_FILE = "Dodge Orb/Dodge Orb-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		034522D218B6AA8400FB70E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Dodge Orb/Dodge Orb-Prefix.pch";
+				INFOPLIST_FILE = "Dodge Orb/Dodge Orb-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		034522D418B6AA8400FB70E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Dodge Orb.app/Dodge Orb";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Dodge Orb/Dodge Orb-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Dodge OrbTests/Dodge OrbTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		034522D518B6AA8400FB70E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Dodge Orb.app/Dodge Orb";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Dodge Orb/Dodge Orb-Prefix.pch";
+				INFOPLIST_FILE = "Dodge OrbTests/Dodge OrbTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0345229218B6AA8400FB70E1 /* Build configuration list for PBXProject "Dodge Orb" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				034522CE18B6AA8400FB70E1 /* Debug */,
+				034522CF18B6AA8400FB70E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		034522D018B6AA8400FB70E1 /* Build configuration list for PBXNativeTarget "Dodge Orb" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				034522D118B6AA8400FB70E1 /* Debug */,
+				034522D218B6AA8400FB70E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		034522D318B6AA8400FB70E1 /* Build configuration list for PBXNativeTarget "Dodge OrbTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				034522D418B6AA8400FB70E1 /* Debug */,
+				034522D518B6AA8400FB70E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0345228F18B6AA8400FB70E1 /* Project object */;
+}
