@@ -16,14 +16,29 @@
 		034522AD18B6AA8400FB70E1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 034522AC18B6AA8400FB70E1 /* AppDelegate.m */; };
 		034522B018B6AA8400FB70E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 034522AE18B6AA8400FB70E1 /* Main.storyboard */; };
 		034522B318B6AA8400FB70E1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 034522B218B6AA8400FB70E1 /* ViewController.m */; };
-		034522B618B6AA8400FB70E1 /* MyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 034522B518B6AA8400FB70E1 /* MyScene.m */; };
-		034522B818B6AA8400FB70E1 /* Spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = 034522B718B6AA8400FB70E1 /* Spaceship.png */; };
+		034522B618B6AA8400FB70E1 /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 034522B518B6AA8400FB70E1 /* GameScene.m */; };
 		034522BA18B6AA8400FB70E1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 034522B918B6AA8400FB70E1 /* Images.xcassets */; };
 		034522C118B6AA8400FB70E1 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 034522C018B6AA8400FB70E1 /* XCTest.framework */; };
 		034522C218B6AA8400FB70E1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0345229A18B6AA8400FB70E1 /* Foundation.framework */; };
 		034522C318B6AA8400FB70E1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0345229E18B6AA8400FB70E1 /* UIKit.framework */; };
 		034522CB18B6AA8400FB70E1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 034522C918B6AA8400FB70E1 /* InfoPlist.strings */; };
 		034522CD18B6AA8400FB70E1 /* Dodge_OrbTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 034522CC18B6AA8400FB70E1 /* Dodge_OrbTests.m */; };
+		0388048418B80849008FEC1E /* Explosion.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0388048318B80849008FEC1E /* Explosion.wav */; };
+		03988CE918BA4E59006D30B8 /* O.sks in Resources */ = {isa = PBXBuildFile; fileRef = 03988CE818BA4E59006D30B8 /* O.sks */; };
+		03988CF718BA5403006D30B8 /* RBPIX.png in Resources */ = {isa = PBXBuildFile; fileRef = 03988CF618BA5403006D30B8 /* RBPIX.png */; };
+		03AFB33918B6BBDE00962118 /* Trail.sks in Resources */ = {isa = PBXBuildFile; fileRef = 03AFB33718B6BBDE00962118 /* Trail.sks */; };
+		03AFB33A18B6BBDE00962118 /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = 03AFB33818B6BBDE00962118 /* spark.png */; };
+		03AFB33C18B6BDAB00962118 /* Spawn.wav in Resources */ = {isa = PBXBuildFile; fileRef = 03AFB33B18B6BDAB00962118 /* Spawn.wav */; };
+		03AFB34218B6D96700962118 /* Explosion.sks in Resources */ = {isa = PBXBuildFile; fileRef = 03AFB34118B6D96700962118 /* Explosion.sks */; };
+		03AFB34718B6DC3300962118 /* MenuScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 03AFB34518B6DC3300962118 /* MenuScene.m */; };
+		03AFB34918B6DC9C00962118 /* Background.sks in Resources */ = {isa = PBXBuildFile; fileRef = 03AFB34818B6DC9C00962118 /* Background.sks */; };
+		03F9B6DC18B9348C004DEE87 /* SKButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F9B6DB18B9348C004DEE87 /* SKButton.m */; };
+		03F9B6DF18B93F0A004DEE87 /* Score.png in Resources */ = {isa = PBXBuildFile; fileRef = 03F9B6DD18B93F0A004DEE87 /* Score.png */; };
+		03F9B6E018B93F0A004DEE87 /* About.png in Resources */ = {isa = PBXBuildFile; fileRef = 03F9B6DE18B93F0A004DEE87 /* About.png */; };
+		03F9B6E218B93F0E004DEE87 /* Play.png in Resources */ = {isa = PBXBuildFile; fileRef = 03F9B6E118B93F0E004DEE87 /* Play.png */; };
+		03F9B6E518B94508004DEE87 /* ScoreScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F9B6E418B94508004DEE87 /* ScoreScene.m */; };
+		03F9B6E818B945C3004DEE87 /* AboutScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F9B6E718B945C3004DEE87 /* AboutScene.m */; };
+		03F9B6EA18B949CF004DEE87 /* Back.png in Resources */ = {isa = PBXBuildFile; fileRef = 03F9B6E918B949CF004DEE87 /* Back.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,29 +52,49 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0345229718B6AA8400FB70E1 /* Dodge Orb.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dodge Orb.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0345229718B6AA8400FB70E1 /* Orbpix 0.1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Orbpix 0.1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0345229A18B6AA8400FB70E1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		0345229C18B6AA8400FB70E1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		0345229E18B6AA8400FB70E1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		034522A018B6AA8400FB70E1 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
-		034522A418B6AA8400FB70E1 /* Dodge Orb-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Dodge Orb-Info.plist"; sourceTree = "<group>"; };
+		034522A418B6AA8400FB70E1 /* Orbpix 0.1-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Orbpix 0.1-Info.plist"; sourceTree = "<group>"; };
 		034522A618B6AA8400FB70E1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		034522A818B6AA8400FB70E1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		034522AA18B6AA8400FB70E1 /* Dodge Orb-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Dodge Orb-Prefix.pch"; sourceTree = "<group>"; };
+		034522AA18B6AA8400FB70E1 /* Orbpix 0.1-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Orbpix 0.1-Prefix.pch"; sourceTree = "<group>"; };
 		034522AB18B6AA8400FB70E1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		034522AC18B6AA8400FB70E1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		034522AF18B6AA8400FB70E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		034522B118B6AA8400FB70E1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		034522B218B6AA8400FB70E1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		034522B418B6AA8400FB70E1 /* MyScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyScene.h; sourceTree = "<group>"; };
-		034522B518B6AA8400FB70E1 /* MyScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyScene.m; sourceTree = "<group>"; };
-		034522B718B6AA8400FB70E1 /* Spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spaceship.png; sourceTree = "<group>"; };
+		034522B418B6AA8400FB70E1 /* GameScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
+		034522B518B6AA8400FB70E1 /* GameScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameScene.m; sourceTree = "<group>"; };
 		034522B918B6AA8400FB70E1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		034522BF18B6AA8400FB70E1 /* Dodge OrbTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dodge OrbTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		034522BF18B6AA8400FB70E1 /* Orbpix 0.1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Orbpix 0.1Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		034522C018B6AA8400FB70E1 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		034522C818B6AA8400FB70E1 /* Dodge OrbTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Dodge OrbTests-Info.plist"; sourceTree = "<group>"; };
+		034522C818B6AA8400FB70E1 /* Orbpix 0.1Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Orbpix 0.1Tests-Info.plist"; sourceTree = "<group>"; };
 		034522CA18B6AA8400FB70E1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		034522CC18B6AA8400FB70E1 /* Dodge_OrbTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Dodge_OrbTests.m; sourceTree = "<group>"; };
+		0388048318B80849008FEC1E /* Explosion.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Explosion.wav; sourceTree = "<group>"; };
+		03988CE818BA4E59006D30B8 /* O.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = O.sks; sourceTree = "<group>"; };
+		03988CF618BA5403006D30B8 /* RBPIX.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RBPIX.png; sourceTree = "<group>"; };
+		03AFB33718B6BBDE00962118 /* Trail.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Trail.sks; sourceTree = "<group>"; };
+		03AFB33818B6BBDE00962118 /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
+		03AFB33B18B6BDAB00962118 /* Spawn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Spawn.wav; sourceTree = "<group>"; };
+		03AFB34018B6C2E500962118 /* CGVector+TC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CGVector+TC.h"; sourceTree = "<group>"; };
+		03AFB34118B6D96700962118 /* Explosion.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Explosion.sks; sourceTree = "<group>"; };
+		03AFB34518B6DC3300962118 /* MenuScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuScene.m; sourceTree = "<group>"; };
+		03AFB34618B6DC3300962118 /* MenuScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuScene.h; sourceTree = "<group>"; };
+		03AFB34818B6DC9C00962118 /* Background.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Background.sks; sourceTree = "<group>"; };
+		03F9B6DA18B9348C004DEE87 /* SKButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKButton.h; sourceTree = "<group>"; };
+		03F9B6DB18B9348C004DEE87 /* SKButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKButton.m; sourceTree = "<group>"; };
+		03F9B6DD18B93F0A004DEE87 /* Score.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Score.png; sourceTree = "<group>"; };
+		03F9B6DE18B93F0A004DEE87 /* About.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = About.png; sourceTree = "<group>"; };
+		03F9B6E118B93F0E004DEE87 /* Play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Play.png; sourceTree = "<group>"; };
+		03F9B6E318B94508004DEE87 /* ScoreScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScoreScene.h; sourceTree = "<group>"; };
+		03F9B6E418B94508004DEE87 /* ScoreScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScoreScene.m; sourceTree = "<group>"; };
+		03F9B6E618B945C3004DEE87 /* AboutScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutScene.h; sourceTree = "<group>"; };
+		03F9B6E718B945C3004DEE87 /* AboutScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutScene.m; sourceTree = "<group>"; };
+		03F9B6E918B949CF004DEE87 /* Back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Back.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,8 +135,8 @@
 		0345229818B6AA8400FB70E1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0345229718B6AA8400FB70E1 /* Dodge Orb.app */,
-				034522BF18B6AA8400FB70E1 /* Dodge OrbTests.xctest */,
+				0345229718B6AA8400FB70E1 /* Orbpix 0.1.app */,
+				034522BF18B6AA8400FB70E1 /* Orbpix 0.1Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -126,9 +161,29 @@
 				034522AE18B6AA8400FB70E1 /* Main.storyboard */,
 				034522B118B6AA8400FB70E1 /* ViewController.h */,
 				034522B218B6AA8400FB70E1 /* ViewController.m */,
-				034522B418B6AA8400FB70E1 /* MyScene.h */,
-				034522B518B6AA8400FB70E1 /* MyScene.m */,
-				034522B718B6AA8400FB70E1 /* Spaceship.png */,
+				03AFB34618B6DC3300962118 /* MenuScene.h */,
+				03AFB34518B6DC3300962118 /* MenuScene.m */,
+				034522B418B6AA8400FB70E1 /* GameScene.h */,
+				034522B518B6AA8400FB70E1 /* GameScene.m */,
+				03F9B6E318B94508004DEE87 /* ScoreScene.h */,
+				03F9B6E418B94508004DEE87 /* ScoreScene.m */,
+				03F9B6E618B945C3004DEE87 /* AboutScene.h */,
+				03F9B6E718B945C3004DEE87 /* AboutScene.m */,
+				03AFB34018B6C2E500962118 /* CGVector+TC.h */,
+				03F9B6DA18B9348C004DEE87 /* SKButton.h */,
+				03F9B6DB18B9348C004DEE87 /* SKButton.m */,
+				0388048318B80849008FEC1E /* Explosion.wav */,
+				03AFB34118B6D96700962118 /* Explosion.sks */,
+				03AFB33718B6BBDE00962118 /* Trail.sks */,
+				03AFB34818B6DC9C00962118 /* Background.sks */,
+				03988CE818BA4E59006D30B8 /* O.sks */,
+				03AFB33B18B6BDAB00962118 /* Spawn.wav */,
+				03988CF618BA5403006D30B8 /* RBPIX.png */,
+				03AFB33818B6BBDE00962118 /* spark.png */,
+				03F9B6E118B93F0E004DEE87 /* Play.png */,
+				03F9B6DD18B93F0A004DEE87 /* Score.png */,
+				03F9B6DE18B93F0A004DEE87 /* About.png */,
+				03F9B6E918B949CF004DEE87 /* Back.png */,
 				034522B918B6AA8400FB70E1 /* Images.xcassets */,
 				034522A318B6AA8400FB70E1 /* Supporting Files */,
 			);
@@ -138,10 +193,10 @@
 		034522A318B6AA8400FB70E1 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				034522A418B6AA8400FB70E1 /* Dodge Orb-Info.plist */,
+				034522A418B6AA8400FB70E1 /* Orbpix 0.1-Info.plist */,
 				034522A518B6AA8400FB70E1 /* InfoPlist.strings */,
 				034522A818B6AA8400FB70E1 /* main.m */,
-				034522AA18B6AA8400FB70E1 /* Dodge Orb-Prefix.pch */,
+				034522AA18B6AA8400FB70E1 /* Orbpix 0.1-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -158,7 +213,7 @@
 		034522C718B6AA8400FB70E1 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				034522C818B6AA8400FB70E1 /* Dodge OrbTests-Info.plist */,
+				034522C818B6AA8400FB70E1 /* Orbpix 0.1Tests-Info.plist */,
 				034522C918B6AA8400FB70E1 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
@@ -167,9 +222,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0345229618B6AA8400FB70E1 /* Dodge Orb */ = {
+		0345229618B6AA8400FB70E1 /* Orbpix 0.1 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 034522D018B6AA8400FB70E1 /* Build configuration list for PBXNativeTarget "Dodge Orb" */;
+			buildConfigurationList = 034522D018B6AA8400FB70E1 /* Build configuration list for PBXNativeTarget "Orbpix 0.1" */;
 			buildPhases = (
 				0345229318B6AA8400FB70E1 /* Sources */,
 				0345229418B6AA8400FB70E1 /* Frameworks */,
@@ -179,14 +234,14 @@
 			);
 			dependencies = (
 			);
-			name = "Dodge Orb";
+			name = "Orbpix 0.1";
 			productName = "Dodge Orb";
-			productReference = 0345229718B6AA8400FB70E1 /* Dodge Orb.app */;
+			productReference = 0345229718B6AA8400FB70E1 /* Orbpix 0.1.app */;
 			productType = "com.apple.product-type.application";
 		};
-		034522BE18B6AA8400FB70E1 /* Dodge OrbTests */ = {
+		034522BE18B6AA8400FB70E1 /* Orbpix 0.1Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 034522D318B6AA8400FB70E1 /* Build configuration list for PBXNativeTarget "Dodge OrbTests" */;
+			buildConfigurationList = 034522D318B6AA8400FB70E1 /* Build configuration list for PBXNativeTarget "Orbpix 0.1Tests" */;
 			buildPhases = (
 				034522BB18B6AA8400FB70E1 /* Sources */,
 				034522BC18B6AA8400FB70E1 /* Frameworks */,
@@ -197,9 +252,9 @@
 			dependencies = (
 				034522C518B6AA8400FB70E1 /* PBXTargetDependency */,
 			);
-			name = "Dodge OrbTests";
+			name = "Orbpix 0.1Tests";
 			productName = "Dodge OrbTests";
-			productReference = 034522BF18B6AA8400FB70E1 /* Dodge OrbTests.xctest */;
+			productReference = 034522BF18B6AA8400FB70E1 /* Orbpix 0.1Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -216,7 +271,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 0345229218B6AA8400FB70E1 /* Build configuration list for PBXProject "Dodge Orb" */;
+			buildConfigurationList = 0345229218B6AA8400FB70E1 /* Build configuration list for PBXProject "Orbpix 0.1" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -229,8 +284,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0345229618B6AA8400FB70E1 /* Dodge Orb */,
-				034522BE18B6AA8400FB70E1 /* Dodge OrbTests */,
+				0345229618B6AA8400FB70E1 /* Orbpix 0.1 */,
+				034522BE18B6AA8400FB70E1 /* Orbpix 0.1Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -240,9 +295,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03988CF718BA5403006D30B8 /* RBPIX.png in Resources */,
+				03F9B6EA18B949CF004DEE87 /* Back.png in Resources */,
+				03988CE918BA4E59006D30B8 /* O.sks in Resources */,
+				03F9B6E018B93F0A004DEE87 /* About.png in Resources */,
+				03F9B6DF18B93F0A004DEE87 /* Score.png in Resources */,
+				03AFB33C18B6BDAB00962118 /* Spawn.wav in Resources */,
 				034522A718B6AA8400FB70E1 /* InfoPlist.strings in Resources */,
+				03AFB33A18B6BBDE00962118 /* spark.png in Resources */,
+				03AFB33918B6BBDE00962118 /* Trail.sks in Resources */,
 				034522BA18B6AA8400FB70E1 /* Images.xcassets in Resources */,
-				034522B818B6AA8400FB70E1 /* Spaceship.png in Resources */,
+				0388048418B80849008FEC1E /* Explosion.wav in Resources */,
+				03AFB34218B6D96700962118 /* Explosion.sks in Resources */,
+				03F9B6E218B93F0E004DEE87 /* Play.png in Resources */,
+				03AFB34918B6DC9C00962118 /* Background.sks in Resources */,
 				034522B018B6AA8400FB70E1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -262,10 +328,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				034522B618B6AA8400FB70E1 /* MyScene.m in Sources */,
+				03F9B6E818B945C3004DEE87 /* AboutScene.m in Sources */,
+				034522B618B6AA8400FB70E1 /* GameScene.m in Sources */,
+				03F9B6E518B94508004DEE87 /* ScoreScene.m in Sources */,
+				03AFB34718B6DC3300962118 /* MenuScene.m in Sources */,
 				034522B318B6AA8400FB70E1 /* ViewController.m in Sources */,
 				034522AD18B6AA8400FB70E1 /* AppDelegate.m in Sources */,
 				034522A918B6AA8400FB70E1 /* main.m in Sources */,
+				03F9B6DC18B9348C004DEE87 /* SKButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,7 +352,7 @@
 /* Begin PBXTargetDependency section */
 		034522C518B6AA8400FB70E1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 0345229618B6AA8400FB70E1 /* Dodge Orb */;
+			target = 0345229618B6AA8400FB70E1 /* Orbpix 0.1 */;
 			targetProxy = 034522C418B6AA8400FB70E1 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -392,10 +462,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Dodge Orb/Dodge Orb-Prefix.pch";
-				INFOPLIST_FILE = "Dodge Orb/Dodge Orb-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "Dodge Orb/Orbpix 0.1-Prefix.pch";
+				INFOPLIST_FILE = "Dodge Orb/Orbpix 0.1-Info.plist";
+				PRODUCT_NAME = "Orbpix 0.1";
 				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
 				WRAPPER_EXTENSION = app;
 			};
@@ -406,10 +477,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Dodge Orb/Dodge Orb-Prefix.pch";
-				INFOPLIST_FILE = "Dodge Orb/Dodge Orb-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "Dodge Orb/Orbpix 0.1-Prefix.pch";
+				INFOPLIST_FILE = "Dodge Orb/Orbpix 0.1-Info.plist";
+				PRODUCT_NAME = "Orbpix 0.1";
 				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
 				WRAPPER_EXTENSION = app;
 			};
@@ -431,8 +503,8 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "Dodge OrbTests/Dodge OrbTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "Dodge OrbTests/Orbpix 0.1Tests-Info.plist";
+				PRODUCT_NAME = "Orbpix 0.1Tests";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -450,8 +522,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Dodge Orb/Dodge Orb-Prefix.pch";
-				INFOPLIST_FILE = "Dodge OrbTests/Dodge OrbTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "Dodge OrbTests/Orbpix 0.1Tests-Info.plist";
+				PRODUCT_NAME = "Orbpix 0.1Tests";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -460,7 +532,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0345229218B6AA8400FB70E1 /* Build configuration list for PBXProject "Dodge Orb" */ = {
+		0345229218B6AA8400FB70E1 /* Build configuration list for PBXProject "Orbpix 0.1" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				034522CE18B6AA8400FB70E1 /* Debug */,
@@ -469,21 +541,23 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		034522D018B6AA8400FB70E1 /* Build configuration list for PBXNativeTarget "Dodge Orb" */ = {
+		034522D018B6AA8400FB70E1 /* Build configuration list for PBXNativeTarget "Orbpix 0.1" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				034522D118B6AA8400FB70E1 /* Debug */,
 				034522D218B6AA8400FB70E1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		034522D318B6AA8400FB70E1 /* Build configuration list for PBXNativeTarget "Dodge OrbTests" */ = {
+		034522D318B6AA8400FB70E1 /* Build configuration list for PBXNativeTarget "Orbpix 0.1Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				034522D418B6AA8400FB70E1 /* Debug */,
 				034522D518B6AA8400FB70E1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

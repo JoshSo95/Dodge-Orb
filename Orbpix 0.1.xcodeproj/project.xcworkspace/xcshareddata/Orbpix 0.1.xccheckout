@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>944720ED-64B1-46F7-BC23-2C5E27C689F8</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Orbpix 0.1</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>C659A0C0-403B-4972-900F-CC0C89C2138E</key>
+		<string>https://github.com/JoshSo95/Dodge-Orb.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Orbpix 0.1.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>C659A0C0-403B-4972-900F-CC0C89C2138E</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/JoshSo95/Dodge-Orb.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>C659A0C0-403B-4972-900F-CC0C89C2138E</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>C659A0C0-403B-4972-900F-CC0C89C2138E</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Dodge Orb</string>
+		</dict>
+	</array>
+</dict>
+</plist>
